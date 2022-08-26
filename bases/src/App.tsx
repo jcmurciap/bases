@@ -1,6 +1,7 @@
 import {Counter} from "./bases/Counter";
 import {CounterBy} from "./bases/CounterBy";
 import {CounterEffect} from "./bases/CounterEffect";
+import {CounterHook} from "./bases/CounterHook";
 
 function App() {
     return (
@@ -10,7 +11,7 @@ function App() {
             <Counter initialValue={170}/>
             <CounterBy initialValue={1}/>
             <CounterEffect />
-            <CounterEffect />
+            <CounterHook />
         </>
     );
 }
